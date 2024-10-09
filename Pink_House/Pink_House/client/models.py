@@ -1,0 +1,14 @@
+msg = None
+win_dict = {}  # 保存已经打开窗口
+friend_frame = {} # 保存每个联系人
+friend_on_list = []  # 用户上线
+friend_off_list = []  # 用户离线
+add_friend_list = []  # 添加好友
+fri_re = []  # 好友请求结果
+del_re = []  # 好友删除结果
+chat_list = []  # 好友私聊信息
+is_friend = []
+disconnect = []  # 异常断开
+create_room = []  # 创建群聊
+add_room_re = []  # 加入群聊结果
+his_msg = [] #聊天记录
